@@ -16,13 +16,11 @@ public class Main {
 
     public static boolean testprimo(int numtest) {
 
-        int tests = 3;
+        int tests;
+        for (tests = 2; tests < numtest; tests++){
 
-        while (tests < numtest) {
             if ((numtest % tests) == 0) {
                 return false;
-            } else {
-                tests++;
             }
 
         }
