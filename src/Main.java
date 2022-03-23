@@ -17,17 +17,15 @@ public class Main {
     public static boolean testprimo(int numtest) {
 
         int tests = 3;
-        boolean result = true;
-        while (tests < numtest) {
 
+        while (tests < numtest) {
             if ((numtest % tests) == 0) {
-                result = false;
-                break;
+                return false;
             } else {
                 tests++;
             }
 
         }
-        return result;
+        return true;
     }
 }
