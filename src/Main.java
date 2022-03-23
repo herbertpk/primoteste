@@ -17,7 +17,7 @@ public class Main {
     public static boolean testprimo(int numtest) {
 
         int tests;
-        for (tests = 2; tests < numtest; tests++){
+        for (tests = 2; tests*tests <= numtest; tests++){
 
             if ((numtest % tests) == 0) {
                 return false;
