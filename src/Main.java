@@ -1,4 +1,5 @@
 public class Main {
+
     public static void main(String[] args){
         int numtest = 2;
         int cont = 500000; //ate qual numero ele ira testar
